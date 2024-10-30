@@ -117,7 +117,15 @@ Posterior a esta ejecucion la api te solicitara:
 ```
 y ahi finalizaria la ejecucion de la API
 
+## Durante el Desarrollo
 
+1. se utilizaron apis adicionales para obtener la informacion requerida
+   http://api.ipapi.com/
+   https://restcountries.com/v3.1/alpha/
+   https://v6.exchangerate-api.com/v6/
+2. Durante el proceso de desarrollo se inicio con una base de datos H2 embebida, que posteriormente se convirtio en server ya que por la arquitectura que trabaje necesitaba acceso desde las dos aplicaciones.
+   
+   
 
 
 ## Desarrollado por
