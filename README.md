@@ -39,7 +39,7 @@ IpGeolocationApp es una API desarrollada en Java que permite obtener informació
 ### Paso 1: Clonar el Repositorio
 
 ```bash
-git clone https://github.com/your-username/IpGeolocationApp.git
+git clone https://github.com/Nabetsed412/IpGeolocationApp.git
 cd IpGeolocationApp
 ```
 
@@ -90,9 +90,6 @@ Sustituye `<DIRECCIÓN_IP>` por la IP que desees consultar.
 
 Este proyecto fue desarrollado por [Juan Esteban Salazar](https://github.com/Nabetsed412).
 
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT.
 
 ## Licencia
 
