@@ -76,15 +76,6 @@ Puedes acceder a la base de datos H2 a través de un navegador web para depuraci
 ```
 http://localhost:8082
 ```
-
-## Ejemplo de Uso
-
-```
-java -jar IpGeolocationApp.jar <DIRECCIÓN_IP>
-```
-
-Sustituye `<DIRECCIÓN_IP>` por la IP que desees consultar.
-
 ## Primer uso
 
 una vez compilado la terminal arrojara el siguiente mensaje:
@@ -127,9 +118,6 @@ y ahi finalizaria la ejecucion de la API
    ```
 2. Durante el proceso de desarrollo se inicio con una base de datos H2 embebida, que posteriormente se convirtio en server ya que por la arquitectura que trabaje necesitaba acceso desde las dos aplicaciones.
    
-   
-
-
 ## Desarrollado por
 
 Este proyecto fue desarrollado por [Juan Esteban Salazar](https://github.com/Nabetsed412).
