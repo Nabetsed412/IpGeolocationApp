@@ -85,6 +85,40 @@ java -jar IpGeolocationApp.jar <DIRECCIÓN_IP>
 
 Sustituye `<DIRECCIÓN_IP>` por la IP que desees consultar.
 
+## Primer uso
+
+una vez compilado la terminal arrojara el siguiente mensaje:
+
+```
+Por favor, introduce una dirección IP: 
+```
+donde ingresaras un ip valida, o cualquier dato, de igual manera la api tiene la validación para que ingreses una IP correcta.
+
+```
+La dirección IP ingresada no es válida. Por favor, ingresa otra dirección IP
+```
+
+Al ingresar una ip valida la api nos retornara la siguiente informacion:
+```
+fecha actual:
+País:
+Código ISO:
+Nombre del país (eng):
+Idiomas:
+Moneda:
+Tasa de cambio respecto al dólar:
+Zonas horarias y horas actuales:
+Distancia estimada entre Buenos Aires y el país:
+Datos insertados correctamente: <valores para la insercion en una base de datos H2>
+```
+Posterior a esta ejecucion la api te solicitara:
+```
+¿Quieres buscar otra IP? (Y/N)
+```
+y ahi finalizaria la ejecucion de la API
+
+
+
 
 ## Desarrollado por
 
